@@ -24,13 +24,13 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: const Center(
-        child: Text(
-          'Hello World!',
-          style: TextStyle(fontSize: 28, color: Colors.white),
-        ),
-      ),
-      // child: Center(child: Image.asset('assets/images/dice-1.png', width: 200)),
+      // child: const Center(
+      //   child: Text(
+      //     'Hello World!',
+      //     style: TextStyle(fontSize: 28, color: Colors.white),
+      //   ),
+      // ),
+      child: Center(child: Image.asset('asset/image/dice-1.png', width: 200)),
     );
   }
 }
